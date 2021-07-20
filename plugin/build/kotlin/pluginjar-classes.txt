@@ -1,0 +1,1 @@
+C:\Users\dolph\Documents\JmFiles\PlumJuice\plugin\build\classes\kotlin\main\io\github\dolphin2410\plugin\PlumJuicePlugin$onEnable$1.class;C:\Users\dolph\Documents\JmFiles\PlumJuice\plugin\build\classes\kotlin\main\io\github\dolphin2410\plugin\PlumJuicePlugin.class

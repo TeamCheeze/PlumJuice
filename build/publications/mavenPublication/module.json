@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.teamcheeze",
+    "module": "PlumJuice",
+    "version": "0.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.1.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 16,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.5.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "PlumJuice-0.0.1.jar",
+          "url": "PlumJuice-0.0.1.jar",
+          "size": 47098,
+          "sha512": "189b4579695340aa61b9fad48da08f3198eeb6235e4eb2b0f3261ecefa0febce4034068e1ea6e1f5fc3d81a0631a892283e4f5c4e488c4a472b1979bc5e31951",
+          "sha256": "88ae5592f4833b9bdf2025ffde28f75fe31d53edc9e2a44476816383117b512c",
+          "sha1": "7818595fa48791538f912cd970967f1c3a41b9f4",
+          "md5": "dd44281eb67b00e499da1d75f95243a0"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 16,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.teamcheeze",
+          "module": "jaw",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "io.github.teamcheeze",
+          "module": "plum",
+          "version": {
+            "requires": "0.0.3"
+          }
+        },
+        {
+          "group": "PlumJuice",
+          "module": "common",
+          "version": {
+            "requires": "unspecified"
+          }
+        },
+        {
+          "group": "PlumJuice",
+          "module": "plugin",
+          "version": {
+            "requires": "unspecified"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.5.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "PlumJuice-0.0.1.jar",
+          "url": "PlumJuice-0.0.1.jar",
+          "size": 47098,
+          "sha512": "189b4579695340aa61b9fad48da08f3198eeb6235e4eb2b0f3261ecefa0febce4034068e1ea6e1f5fc3d81a0631a892283e4f5c4e488c4a472b1979bc5e31951",
+          "sha256": "88ae5592f4833b9bdf2025ffde28f75fe31d53edc9e2a44476816383117b512c",
+          "sha1": "7818595fa48791538f912cd970967f1c3a41b9f4",
+          "md5": "dd44281eb67b00e499da1d75f95243a0"
+        }
+      ]
+    }
+  ]
+}
