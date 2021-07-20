@@ -3,7 +3,7 @@ package io.github.teamcheeze.v1_17_R1
 import com.mojang.datafixers.util.Pair
 import io.github.teamcheeze.plum.api.PluginLoader
 import io.github.teamcheeze.plum.api.core.bukkit.GBukkit
-import io.github.teamcheeze.jaw.reflection.FieldAccessor
+import io.github.dolphin2410.jaw.reflection.FieldAccessor
 import io.github.teamcheeze.plumjuice.common.clientity.Clientity
 import io.github.teamcheeze.plumjuice.common.clientity.ClientityEvents
 import io.github.teamcheeze.plumjuice.common.clientity.ClientityWorld

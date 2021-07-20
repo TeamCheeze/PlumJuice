@@ -3,7 +3,7 @@ package io.github.teamcheeze.plugin
 import io.github.teamcheeze.plum.api.auth.GameProfileWrapper
 import io.github.teamcheeze.plum.api.config.LibConfig
 import io.github.teamcheeze.plum.api.core.command.CommandRegistry
-import io.github.teamcheeze.jaw.reflection.ReflectionException
+import io.github.dolphin2410.jaw.reflection.ReflectionException
 import io.github.teamcheeze.plumjuice.common.clientity.ClientityServer
 import org.bukkit.Material
 import org.bukkit.entity.ArmorStand
